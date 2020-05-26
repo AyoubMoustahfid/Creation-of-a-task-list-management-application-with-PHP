@@ -12,7 +12,7 @@ Firstable open xampp run server then go to phpmyadmin.
    
    ![Annotation 2020-05-26 123046](https://user-images.githubusercontent.com/47373251/82900946-2630f280-9f55-11ea-98fd-28e2c6b27a82.png)
 
-   > browser: localhost/brief-9/index.php    &&   click log in or log up 
+   > browser: localhost/taskManagement/index.php    &&   click log in or log up 
    
    ![list](https://user-images.githubusercontent.com/47373251/82900519-98ed9e00-9f54-11ea-9e2a-45495f1c0d3d.png)
    
