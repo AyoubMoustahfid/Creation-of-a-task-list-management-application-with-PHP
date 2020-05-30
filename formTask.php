@@ -135,7 +135,7 @@ body {
   <div class="form">
       
     <form class="login-form" method="POST" action='<?php echo "insertTask.php?id=".$id ?>'>
-      <input type="text" placeholder="" name="taskText"/>
+      <input type="text" placeholder="add new task" name="taskText"/>
       <button type="submit">Add Task</button>
     </form>
   

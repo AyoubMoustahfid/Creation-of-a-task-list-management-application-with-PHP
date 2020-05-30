@@ -26,7 +26,7 @@
 				<input type="email" name="email" placeholder="Email"required="" />
 				<input type="password" name="password" placeholder="Password"required="" />
 				<input type="password" name="cpassword" placeholder="Confirme your Password"required="" />
-				<input type="file" name="image" placeholder="Username" required=""/>
+				<input type="text" name="image" placeholder="Enter Image Link" required=""/>
 				<button type="submit" name="register">Sign Up</button>
 			</form>
 		</div>

@@ -19,5 +19,6 @@
     echo $sql;
     mysqli_query($conn, $sql);
     header("Location: boarde.php");
+    
 
 ?>

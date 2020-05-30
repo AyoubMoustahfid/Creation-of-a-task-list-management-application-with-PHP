@@ -136,7 +136,7 @@ body {
   <div class="form">
       
     <form class="login-form" method="POST" action='<?php echo "taskUpdate.php?id=". $id . "&t_id=" . $t_id ?>'>
-      <input type="text" placeholder="password" name="taskText"/>
+      <input type="text" placeholder="Update task" name="taskText"/>
       <button type="submit">Update Task</button>
     </form>
   

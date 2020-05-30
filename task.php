@@ -9,7 +9,7 @@ $dbname = "zentao";
 $conn = mysqli_connect($hostname, $username, $password, $dbname);
 
 $id = $_GET['id'];
-$t_id = $GET['t_id'];
+$t_id = $_GET['t_id'];
 ?>
 <!doctype html>
 <html>
@@ -180,7 +180,7 @@ $t_id = $GET['t_id'];
    
     <div class="column">
       <h1 class="title">To Do
-        <a href='<?php echo "formTask.php?id=".$id ?>'><i class='fa fa-share'></i></a>
+        <a href='<?php echo "formTask.php?id=".$id ?>'><i class='fa fa-plus'></i></a>
       </h1>
       <?php
        
