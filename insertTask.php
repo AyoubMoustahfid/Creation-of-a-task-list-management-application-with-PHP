@@ -14,7 +14,7 @@
     
 
 	$sql = "INSERT INTO task (taskText, done, todolist_id)  VALUES('$taskText', 0, '$id')";
-    echo $sql;
+    
     mysqli_query($conn, $sql);
     header("Location: task.php?id=".$id);
 

@@ -175,7 +175,13 @@ $t_id = $_GET['t_id'];
   </header>
 
   <section style="margin-top:40px">
-  <h1 style="color:white; text-align:center"><?php echo $_SESSION['name']?></h1>
+  <h1 style="color:white; text-align:center"><?php
+  $task = "SELECT  name FROM todolist WHERE todolist_id=$id LIMIT 1";
+  $name_task = mysqli_query($conn, $task);
+  while ($row = mysqli_fetch_array($name_task)) {
+  echo $row['name'];
+  }
+  ?></h1>
   <div class="todolist">
    
     <div class="column">
